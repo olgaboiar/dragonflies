@@ -1,14 +1,15 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary" style="top: 130px;">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse justify-content-center bootstrap-iso">
-        <%= form_tag(freelancers_path, :method => "get", class: 'form-inline mt-4') do %>
-            <%= text_field_tag :search, params[:search], placeholder: "Search Locations", class: 'form-control mr-sm-2', id: 'search_location' %>
-            <%= date_field(:freelancer, :start_date, class: 'form-control mr-sm-2', placeholder: "From") %>
-            <%= date_field(:freelancer, :end_date, class: 'form-control mr-sm-2', placeholder: "Till") %>
-            <%= submit_tag "Search", :name => nil, class: 'btn btn-success my-4 my-sm-0' %>
-        <% end %>
-    </div>
-    
-</nav>
+<div class="container mb-5">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary" style="top: 130px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse justify-content-center bootstrap-iso">
+            <%= form_tag(freelancers_path, :method => "get", class: 'form-inline mt-4') do %>
+                <%= text_field_tag :search, params[:search], placeholder: "Search Locations", class: 'form-control mr-sm-2', id: 'search_location' %>
+                <%= date_field(:freelancer, :start_date, class: 'form-control mr-sm-2', placeholder: "From") %>
+                <%= date_field(:freelancer, :end_date, class: 'form-control mr-sm-2', placeholder: "Till") %>
+                <%= submit_tag "Search", :name => nil, class: 'btn btn-success my-4 my-sm-0' %>
+            <% end %>
+        </div>
+    </nav>
+</div>

@@ -1,4 +1,4 @@
-<h1 class="header row col-12-sm justify-content-center mt-2">Editing Freelancer</h1>
+<h1 class="header row col-12-sm justify-content-center mt-5">Editing Freelancer</h1>
 <div class="container mt-2">
   <div class="row col-12 mt-2">
     <%= form_with(model: freelancer, local: true) do |form| %>
@@ -46,20 +46,7 @@
 
       <div class="field">
         <%= form.label :genre %><br>
-        <%= form.text_area :genre %><br>
-        <%= form.label :genre %><br>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Weddings") %>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Fashion") %><br>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Food Photography") %>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Portrait") %><br>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Family") %>
-        <%= check_box_tag(:genre) %>
-        <%= label_tag(:genre, "Live Music") %>                
+        <%= form.text_area :genre %><br>                
       </div>       
 
       <div class="actions">

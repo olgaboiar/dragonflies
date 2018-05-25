@@ -1,12 +1,3 @@
-#container {
-	width: 200px;
-}
-
-#freelance-photog {
-	height: 750px;
-	width: 1500px;
-}
-
 #photog-image {
 	height: 75vh;
 	width: 1500px;
@@ -32,52 +23,16 @@
 #dumbo {
 	position:relative;
 }
-#freelancer-name {
-	display: inline-flex;
-	position: relative;
-	margin-top: 11%;
-	left: -16%;
-	color: black;
-}
-
-#location {
-	display: inline-flex;
-	position: relative;
-	margin-top: -42%;
-	left: 59%;
-	color: black;
-}
-
-#location-font {
-	font-size: 20px;
-	font-style: bold;
-}
-
-
-#bio {
-	display: block;
-	position: relative;
-	margin-left: 4%;
-	margin-top: 10%;
-}
-
-#edit {
-	position: relative;
-	margin-left: 95%;
-	bottom: 284.3px;
-}
 
 
 
-h3 {
-	margin: 3%;
-	font-style: bold;
-}
 
-h5 {
-	margin: 3%;
-	font-style: bold;
-}
+
+
+
+
+
+
 
 
  
